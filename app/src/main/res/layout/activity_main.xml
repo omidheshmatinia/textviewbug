@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|start"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@style/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LTR Text with two number in one line" />
+
+    <TextView
+        android:id="@+id/tvLtrOneLine"
+        style="@style/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LTR Text with two number in two lines" />
+
+    <TextView
+        android:id="@+id/tvLtrTwoLines"
+        style="@style/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        style="@style/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RTL Text with two number in one line" />
+
+    <TextView
+        android:id="@+id/tvRtlOneLine"
+        style="@style/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/circle_red" />
+
+    <TextView
+        android:id="@+id/tvRtlOneLineBidi"
+        style="@style/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/circle_green" />
+
+    <TextView
+        android:id="@+id/tvRtlOneLineRtlFormatter"
+        style="@style/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/circle_blue" />
+
+    <TextView
+        style="@style/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RTL Text with two number in two lines" />
+
+    <TextView
+        android:id="@+id/tvRtlTwoLines"
+        style="@style/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/circle_red" />
+
+    <TextView
+        android:id="@+id/tvRtlTwoLinesBidi"
+        style="@style/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/circle_green" />
+
+    <TextView
+        android:id="@+id/tvRtlTwoLinesRtlFormatter"
+        style="@style/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/circle_blue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#bbb"
+        android:gravity="center">
+
+        <TextView
+            style="@style/descriptionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:drawableStart="@drawable/circle_blue"
+            android:text="BIDI+UTF" />
+
+        <TextView
+            style="@style/descriptionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:drawableStart="@drawable/circle_red"
+            android:text="NORMAL" />
+
+        <TextView
+            style="@style/descriptionText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:drawableStart="@drawable/circle_green"
+            android:text="BIDI" />
+    </LinearLayout>
+</LinearLayout>

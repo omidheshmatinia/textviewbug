@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TextView Text Format Bug</string>
+    <string name="text_long_arabic">تست تست تست تست %1$s تست تست تست تست تست تست تست تست تست تست تست تست %2$s تست تست تست</string>
+    <string name="text_short_arabic">تست تست %1$s تست %2$s تست </string>
+    <string name="text_long_english">Test Test Test Test Test %1$s Test Test Test Test Test %2$s Test Test Test Test Test Test</string>
+    <string name="text_short_english">Test Test %1$s Test Test %2$s Test </string>
+</resources>
